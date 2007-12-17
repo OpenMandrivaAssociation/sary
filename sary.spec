@@ -13,7 +13,6 @@ Group:		System/Internationalization
 License:		LGPL
 URL:			http://prime.sourceforge.jp/src/
 Source0:		%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:	glib2-devel
 Requires:			%{libname} = %{version}
 
