@@ -6,7 +6,7 @@
 %define libname %mklibname %{name} 10
 
 Name:		%{name}
-Summary:	Sary is a suffix array library (with tools)
+Summary:	Suffix array library (with tools)
 Version:		%{version}
 Release:		%{release}
 Group:		System/Internationalization
