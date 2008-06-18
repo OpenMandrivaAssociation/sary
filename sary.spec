@@ -1,6 +1,6 @@
 %define name sary
 %define version	1.2.0
-%define release	%mkrel 7
+%define release	%mkrel 8
 
 %define libname_orig lib%{name}
 %define libname %mklibname %{name} 10
