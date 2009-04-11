@@ -50,20 +50,15 @@ suffix array. It can also search specific fields in a text file by assigning
 index points to those fields. 
 
 %prep
-
 %setup -q
 %patch0 -p1
 
 %build
-[[ ! -x configure ]] && ./autogen.sh
-
-%configure
-
+%configure2_5x
 %make
 
 %install
 rm -rf %{buildroot}
-
 %makeinstall_std
 
 %if %mdkversion < 200900
