@@ -6,7 +6,7 @@
 Summary:	Suffix array library (with tools)
 Name:		sary
 Version:	1.2.0
-Release:	%mkrel 12
+Release:	%mkrel 13
 Group:		System/Internationalization
 License:	LGPL
 URL:		http://prime.sourceforge.jp/src/
@@ -37,7 +37,6 @@ index points to those fields.
 Summary:	Development headers for sary
 Group:		Development/C
 Requires:	%{libname} = %{version}
-Requires:	libglib2.0-devel
 Provides:	%{name}-devel = %{version}-%{release}
 Provides:	%{libname_orig}-devel = %{version}-%{release}
 Obsoletes:	%{mklibname sary 0 -d}
