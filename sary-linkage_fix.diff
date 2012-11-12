@@ -1,0 +1,24 @@
+diff -Naur sary-1.2.0/sary/Makefile.am sary-1.2.0.oden/sary/Makefile.am
+--- sary-1.2.0/sary/Makefile.am	2004-06-11 20:57:27.000000000 +0200
++++ sary-1.2.0.oden/sary/Makefile.am	2008-09-29 12:06:26.000000000 +0200
+@@ -24,7 +24,7 @@
+ 			writer.c writer.h \
+ 			version.c
+ 
+-libsary_la_LDFLAGS = 	-version-info $(LTVERSION) -export-dynamic
++libsary_la_LDFLAGS = 	-version-info $(LTVERSION) -export-dynamic @GLIB_LIBS@
+ pkginclude_HEADERS = 	array.h bsearch.h builder.h cache.h i.h ipoint.h \
+ 			merger.h mkqsort.h mmap.h progress.h saryconfig.h \
+ 			searcher.h sorter.h str.h text.h writer.h
+diff -Naur sary-1.2.0/sary/Makefile.in sary-1.2.0.oden/sary/Makefile.in
+--- sary-1.2.0/sary/Makefile.in	2005-03-30 00:36:43.000000000 +0200
++++ sary-1.2.0.oden/sary/Makefile.in	2008-09-29 12:06:37.000000000 +0200
+@@ -109,7 +109,7 @@
+ libsary_la_SOURCES = array.c array.h 			bsearch.c bsearch.h 			builder.c builder.h 			cache.c cache.h 			i.h 			ipoint.c ipoint.h 			merger.c merger.h 			mkqsort.c mkqsort.h 			mmap.c mmap.h 			progress.c progress.h 			saryconfig.h 			searcher.c searcher.h 			sorter.c sorter.h 			str.c str.h 			text.c text.h 			writer.c writer.h 			version.c
+ 
+ 
+-libsary_la_LDFLAGS = -version-info $(LTVERSION) -export-dynamic
++libsary_la_LDFLAGS = -version-info $(LTVERSION) -export-dynamic @GLIB_LIBS@
+ pkginclude_HEADERS = array.h bsearch.h builder.h cache.h i.h ipoint.h 			merger.h mkqsort.h mmap.h progress.h saryconfig.h 			searcher.h sorter.h str.h text.h writer.h
+ 
+ 
