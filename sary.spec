@@ -12,7 +12,7 @@ License:	LGPL
 URL:		http://prime.sourceforge.jp/src/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		sary-linkage_fix.diff
-BuildRequires:	glib2-devel
+BuildRequires:	pkgconfig(glib2.0)
 Requires:	%{libname} = %{version}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
