@@ -72,6 +72,5 @@ index points to those fields.
 
 %files -n %{develname}
 %{_includedir}/*
-%{_libdir}/libsary.a
 %{_libdir}/libsary.so
 %{_libdir}/pkgconfig/sary.pc
