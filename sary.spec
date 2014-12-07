@@ -6,7 +6,7 @@
 Summary:	Suffix array library (with tools)
 Name:		sary
 Version:	1.2.0
-Release:	21
+Release:	22
 Group:		System/Internationalization
 License:	LGPL
 URL:		http://prime.sourceforge.jp/src/
