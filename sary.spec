@@ -2,6 +2,8 @@
 %define libname_orig lib%{name}
 %define libname %mklibname %{name} %{major}
 %define develname %mklibname %{name} -d
+%define _disable_lto 1
+%define _disable_rebuild_configure 1
 
 Summary:	Suffix array library (with tools)
 Name:		sary
