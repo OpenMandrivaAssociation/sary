@@ -11,7 +11,7 @@ Version:	1.2.0
 Release:	25
 Group:		System/Internationalization
 License:	LGPL
-URL:		http://prime.sourceforge.jp/src/
+URL:		https://prime.sourceforge.jp/src/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		sary-linkage_fix.diff
 BuildRequires:	pkgconfig(glib-2.0)
